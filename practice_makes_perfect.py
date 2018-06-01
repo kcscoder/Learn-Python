@@ -5,41 +5,6 @@ the lesson 'Practice Makes Perfect'.
 # Main function 
 
 
-def main():
-
-
-    print "Hello World"
-
-    user_choice = raw_input("Choose a function to run: ")
-
-    options = {
-            1 : is_even,
-            2 : is_int,
-            3 : digit_sum, 
-            4 : factorial, 
-            5 : is_prime, 
-            6 : reverse, 
-            7 : anti_vowel, 
-            8 : scrabble_score, 
-            9 : censor, 
-            10 : count,
-            11 : purify, 
-            12 : product, 
-            13 : remove_duplicates,
-            14 : median
-            }
-
-    if user_choice == 1:
-        i = raw_input("Enter an integer to check if it's even: ")
-        options[1](i)
-    else:
-        print "Not possible"
-
-
-
-if __name__=="__main__":
-    main()
-
 """====================Content======================"""
 ## 1. is_even(x) -> int
 ## 2. is_int(x) -> int or float
@@ -213,3 +178,28 @@ def median(lst):
     else:
         return lst[(size-1)/2]
 
+
+def main():
+    print "Hello World"
+
+"""
+    options = {
+            1 : is_even,
+            2 : is_int,
+            3 : digit_sum, 
+            4 : factorial, 
+            5 : is_prime, 
+            6 : reverse, 
+            7 : anti_vowel, 
+            8 : scrabble_score, 
+            9 : censor, 
+            10 : count,
+            11 : purify, 
+            12 : product, 
+            13 : remove_duplicates,
+            14 : median
+            }
+"""
+
+if __name__=="__main__":
+    main()
