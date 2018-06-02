@@ -1,9 +1,9 @@
 from random import randint
 """
-=============================================
 Codecademy/Learn Python
 7 Lists and Functions
-  Interactive Lessons: Battleship!
+=============================================
+Battleship!
 =============================================
 
 Extra Credit: 
