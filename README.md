@@ -3,17 +3,17 @@
 This folder contains notable programs from the module 'Learn Python'
 on Codecademy. 
 
-<h3>1. battleship.py</h3>
+<h3>1. <a href=/src/battleship.py>battleship.py</a></h3>
   On a board of grid NxN, your job is to guess the position of the computer's 
   battleships. The number of ships is manually adjustable, and depending on 
   the difficulty choice you have different numbers of chances to guess. 
 
-<h3>2. number_guess.py</h3>
+<h3>2. <a href=/src/battleship.py>number_guess.py</a></h3>
   In this program you want to guess a number that is larger than the sum of the 
   two dices that the computer will roll. The number of sides of the dices is 
   adjustable for different sizes of sums. 
 
-<h3>3. practice_makes_perfect.py</h3>
+<h3>3. <a href=/src/battleship.py>practice_makes_perfect.py</a></h3>
   A collection of algorithm exercises in Python.
   <pre>
   Content:
@@ -35,6 +35,6 @@ on Codecademy.
        13 remove_duplicates(lst) lst -> int[]
        14 median(lst)            lst -> int[]
   </pre>
-<h3>4. rock_paper_scissor.py</h3>
+<h3>4. <a href=/src/battleship.py>rock_paper_scissor.py</a></h3>
   Simple game of rock, paper, or scissor. Choose wisely. 
   
